@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--eggshell);
+    color: var(--wenge-brown);
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.attribution {
+    font-size: 16px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.recipe-container {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: "Young Serif";
+    font-size: 32px;
+    color: var(--dark-charcoal);
+}
+
+.recipe-description {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    color: var(--wenge-brown);
+}
+
+.recipe-preparation {
+    padding: 10px 25px;
+    background-color: var(--rose-white);
+    border-radius: 5px;
+    font-family: "Outfit";
+    font-size: 16px;
+}
+
+ul li::marker,
+ol li::marker {
+    color: var(--dark-raspberry);
+    font-weight: 700;
+}
+
+ul li,
+ol li {
+    padding-left: 15px;
+    margin-bottom: 8px;
+}
+
+h3 {
+    color: var(--dark-raspberry);
+    font-size: 18px;
+}
+
+span {
+    font-weight: 700;
+    color: var(--dark-charcoal);
+}
+
+h2 {
+    color: var(--nutmeg);
+    font-family: "Young Serif";
+    font-size: 28px;
+}
+
+.recipe-card {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.recipe-nutrition {
+    border-bottom: 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr td {
+    padding: 10px;
+}
+
+table .nutrition-border {
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.nutrition-information {
+    color: var(--dark-raspberry);
+    font-weight: 700;
+}
+
+@media screen and (max-width: 750px) {
+    .recipe-container {
+        max-width: 100%;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 0px;
+    }
+
+    .recipe {
+        padding: 20px;
+    }
+
+    img {
+        border-radius: 0;
+    }
+}
