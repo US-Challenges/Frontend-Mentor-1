@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./src/assets/images/favicon-32x32.png"
+        />
+        <title>Frontend Mentor | Results summary component</title>
+        <link rel="stylesheet" href="./src/css/style.css" />
+    </head>
+    <body>
+        <section class="card">
+            <header>
+                <h2 class="header--title">Your Result</h2>
+                <div class="header--score">
+                    <h3>76</h3>
+                    of 100
+                </div>
+                <h4 class="header--result">Great</h4>
+                <p class="header--feedback">
+                    You scored higher than 65% of the people who have taken
+                    these tests.
+                </p>
+            </header>
+            <div class="card--score">
+                <h4 class="card--score__title">Summary</h4>
+                <div class="btn--container">
+                    <div class="btn--score btn--reaction">
+                        <div>
+                            <img
+                                src="./src/assets/images/icon-reaction.svg"
+                                alt="Reaction Icon"
+                            />
+                            <small>Reaction</small>
+                        </div>
+                        <div>
+                            <small class="score"><span>80</span> / 100</small>
+                        </div>
+                    </div>
+                    <div class="btn--score btn--memory">
+                        <div>
+                            <img
+                                src="./src/assets/images/icon-memory.svg"
+                                alt="Memory Icon"
+                            />
+                            <small>Memory</small>
+                        </div>
+                        <div>
+                            <small class="score"><span>92</span> / 100</small>
+                        </div>
+                    </div>
+                    <div class="btn--score btn--verbal">
+                        <div>
+                            <img
+                                src="./src/assets/images/icon-verbal.svg"
+                                alt="Verbal Icon"
+                            />
+                            <small>Verbal</small>
+                        </div>
+                        <div>
+                            <small class="score"><span>61</span> / 100</small>
+                        </div>
+                    </div>
+                    <div class="btn--score btn--visual">
+                        <div>
+                            <img
+                                src="./src/assets/images/icon-visual.svg"
+                                alt="Visual Icon"
+                            />
+                            <small>Visual</small>
+                        </div>
+                        <div>
+                            <small class="score"><span>72</span> / 100</small>
+                        </div>
+                    </div>
+                </div>
+                <button class="send">Continue</button>
+            </div>
+        </section>
+        <div class="attribution">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+            >
+                Frontend Mentor
+            </a>
+            . Coded by
+            <a href="#">Your name here</a>.
+        </div>
+    </body>
+</html>
